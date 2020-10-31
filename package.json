@@ -1,0 +1,27 @@
+{
+  "name": "web-sprint-challenge-adding-data-persistence",
+  "version": "1.0.0",
+  "description": "Web Sprint - Adding Data Persistence",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittanymclaughlin/web-sprint-challenge-adding-data-persistence.git"
+  },
+  "author": "Brittany McLaughlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittanymclaughlin/web-sprint-challenge-adding-data-persistence/issues"
+  },
+  "homepage": "https://github.com/brittanymclaughlin/web-sprint-challenge-adding-data-persistence#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "knex": "^0.21.8",
+    "knex-cleaner": "^1.3.1",
+    "nodemon": "^2.0.6",
+    "sqlite3": "^5.0.0"
+  }
+}
